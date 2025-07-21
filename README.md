@@ -16,7 +16,7 @@ This project aims to detect **hate speech** in Turkish tweets using deep learnin
 
 - **Dataset:** Turkish tweets loaded from an Excel file  
 - **Goal:** Binary classification – detect hate speech (label `1`) vs. normal content (`0`)  
-- **Preprocessing:**  
+- **Preprocessing (You can use Zemberek or something that performs exactly the same):**  
   - URL/HTML/character cleaning  
   - Text tokenization and sequence padding  
 - **Embedding:**  
