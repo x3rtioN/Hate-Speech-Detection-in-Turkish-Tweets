@@ -23,8 +23,8 @@ This project aims to detect **hate speech** in Turkish tweets using deep learnin
   - Turkish Word2Vec embedding (loaded or trained)  
   - Embedding matrix construction  
 - **Models:**  
-  - RNN types: `LSTM`, `BiLSTM`, `GRU`  
-  - Attention types: `Bahdanau`, `Luong`, `Scaled Dot-Product`  
+  - Three different RNN types: `LSTM`, `BiLSTM`, `GRU` combined with three different attention types: `Bahdanau`, `Luong`, `Scaled Dot-Product`
+  - 9 different models compared with each other  
   - Word embeddings: pretrained or random  
 - **Evaluation:**  
   - Accuracy, Precision, Recall, F1  
